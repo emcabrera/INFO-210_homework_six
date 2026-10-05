@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+.cage {
+    position: relative;
+    width:50%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.pokemon {
+    position: absolute;
+    height:80px;
+    width:80px;
+    transition: 0.5s;
+}
+
+.target {
+    position: absolute;
+    height:80px;
+    width:80px;
+    transition: 0.5s;
+}
